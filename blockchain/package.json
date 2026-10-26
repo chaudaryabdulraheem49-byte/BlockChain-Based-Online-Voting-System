@@ -1,0 +1,8 @@
+{
+  "name": "voting-system-contracts",
+  "version": "1.0.0",
+  "description": "Solidity Smart Contracts configuration for voting system",
+  "dependencies": {
+    "truffle": "^5.11.5"
+  }
+}

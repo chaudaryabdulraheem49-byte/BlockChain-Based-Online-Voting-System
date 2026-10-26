@@ -1,0 +1,73 @@
+# ==============================================================================
+# Root .gitignore for Blockchain Voting System Monorepo
+# ==============================================================================
+
+# OS & IDE metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment variables & secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!**/.env.example
+
+# Python & AI Microservice
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+ai_service/venv/
+ai_service/Lib/
+ai_service/Include/
+ai_service/Scripts/
+ai_service/share/
+ai_service/pyvenv.cfg
+ai_service/package_info.json
+*.whl
+*.egg-info/
+.eggs/
+
+# Node.js & Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+error_log.txt
+
+# SQLite Databases & Dynamic State
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+backend/voting_system.db
+voting_system.db
+
+# Blockchain & Truffle Artifacts
+blockchain/build/
+backend/build/
+
+# Frontend Production Builds
+frontend/dist/
+dist/
+build/
+
+# Docker temp & scratch
+.docker/
+scratch/
